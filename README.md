@@ -1,27 +1,19 @@
-# 3s_spider
+#3s_crawler | 3s����
+####3s information crawler edit by Node.js
+___
+### ������
+> "3S"������Ӣ��ң�м�����Remote Sensing RS����������Ϣϵͳ��Geographical information System GIS����ȫ��λϵͳ��Global Positioning System GPS�������ּ������������һ��������ͷ��ͳ�ơ����߹�������ĵ�����Ϣ������Ҳ�ǹ��������Ϣ��ϵͳ�ĺ��ġ�
 
-> 3s news spider by node.js
+ʹ��Node.jsд��������򣬶�����ȡ3s�����վ��Ϣ���������Ŀ�꣺
+* 3s��վ������[̩����] (http://www.3snews.net/)��[�ϵ�֮��](http://www.godeyes.cn/)��[���Ҳ���](http://www.sbsm.gov.cn/)��[gis�ռ�վ](http://www.gissky.net/)��ENVI blog��ArcGIS blog��,֧�ֺ��������չ
+* ���Զ���ؼ��ʣ���ָ�����ݽ�����ȡ
+* ���Զ������������ʱ�估ִ��Ƶ��
+* �ɽ����±��⡢ͼƬ����Դ�����ݵ���Ϣ�������ݿ�򵼳������ļ�
 
-## Build Setup
+### ����ѡ�ͣ�
+* [request](https://github.com/request/request):ģ��http����Ȳ���
+* [cheerio](https://github.com/cheeriojs/cheerio):JQuery��ʽ����DOM
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
